@@ -95,10 +95,9 @@ Control each section of the HUD on the fly without pausing:
 
 You can check out the [latest release](https://github.com/Naofunyan/shell-reveal-counter/releases) to download the latest version of Shell Reveal & Counter.
 
-1. From code button, select Download ZIP
-2. Close the game
-3. In Steam,  right-click Buckshot Roulette > Manage > Browse local files
-4. Inside `Buckshot Roulette_windows`, extract `override.cfg` and the `shell-reveal-counter/` folder directly in the game's root directory like this:
+1. Close the game
+2. In Steam,  right-click Buckshot Roulette > Manage > Browse local files
+3. Inside `Buckshot Roulette_windows`, extract `override.cfg` and the `shell-reveal-counter/` folder directly in the game's root directory like this:
    ```text
    Buckshot Roulette/
    ├── Original Soundtrack
@@ -108,7 +107,7 @@ You can check out the [latest release](https://github.com/Naofunyan/shell-reveal
    └── shell-reveal-counter/
        ├── loader.gd
        └── hud.gd
-5. Launch through Steam and start single-player. The counter appears when shells are loaded. F1 hides or shows it.
+4. Launch through Steam and start single-player. The counter appears when shells are loaded. F1 hides or shows it.
 
 > [!IMPORTANT]
 > If `Buckshot Roulette_windows` already contains an `override.cfg` from another mod, keep that file and follow the merge instructions below instead of overwriting it. You can safely replace the `shell-reveal-counter` scripts when updating this mod.
